@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Calculator
@@ -29,12 +30,12 @@ namespace Calculator
 
 		private void mathsButton_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.Frame.Navigate(typeof(MainPage));
 		}
 
 		private void mortgageButton_Click(object sender, RoutedEventArgs e)
 		{
-
+			this.Frame.Navigate(typeof(MortgageCalculator));
 		}
 
 		private void currencyButton_Click(object sender, RoutedEventArgs e)
