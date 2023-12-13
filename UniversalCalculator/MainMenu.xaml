@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="Black">
+    Background="white">
 
     <Grid>
 		<Grid.ColumnDefinitions>
@@ -39,5 +39,6 @@
 		<StackPanel Grid.Row="4" Grid.Column="1">
 			<Button x:Name="exitButton" Content="Exit" Margin="40" HorizontalAlignment="Stretch" FontFamily="Arial Black" FontSize="24" Height="100" Click="exitButton_Click" />
         </StackPanel>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Height="129" Margin="0,32,0,0" Grid.Row="4" Text="Developed by Chuoi Lam 2023" TextWrapping="Wrap" VerticalAlignment="Top" Width="378" FontSize="24"/>
     </Grid>
 </Page>
